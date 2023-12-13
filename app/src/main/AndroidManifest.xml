@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Health.Care">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.Health.Care.controller.MyCalendarDoctorActivity"></activity>
+        <activity android:name="com.Health.Care.controller.TestActivity" />
+        <activity android:name="com.Health.Care.controller.AppointementActivity" />
+        <activity android:name="com.Health.Care.controller.FicheInfo" />
+        <activity android:name="com.Health.Care.controller.PatientInfoActivity" />
+        <activity android:name="com.Health.Care.controller.DossierMedical" />
+        <activity android:name="com.Health.Care.controller.ChatActivity" />
+        <activity android:name="com.Health.Care.controller.PatientRequestPage" />
+        <activity android:name="com.Health.Care.controller.DoctorHomeActivity" />
+        <activity android:name="com.Health.Care.controller.EditProfileDoctorActivity" />
+        <activity android:name="com.Health.Care.controller.ConfirmedAppointmensActivity" />
+        <activity android:name="com.Health.Care.controller.PatientAppointementsActivity" />
+        <activity android:name="com.Health.Care.controller.ProfilePatientActivity" />
+        <activity android:name="com.Health.Care.controller.MyDoctorsAvtivity" />
+        <activity android:name="com.Health.Care.controller.ProfileDoctorActivity" />
+        <activity android:name="com.Health.Care.controller.EditProfilePatientActivity" />
+        <activity android:name="com.Health.Care.controller.DoctorAppointementActivity" />
+        <activity android:name="com.Health.Care.controller.FicheActivity" />
+        <activity android:name="com.Health.Care.controller.MyPatientsActivity" />
+        <activity android:name="com.Health.Care.controller.SearchPatActivity" />
+        <activity android:name="com.Health.Care.controller.FirstSigninActivity" />
+        <activity android:name="com.Health.Care.controller.HomeActivity" />
+        <activity android:name="com.Health.Care.controller.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
