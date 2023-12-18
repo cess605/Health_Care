@@ -49,7 +49,7 @@ public class ChatActivity extends AppCompatActivity {
 
     private void setUpRecyclerView() {
         Query query = MessageRef1.orderBy("dateCreated");
-        FirestoreRecyclerOptions<Message> options = new Builder<Message>()
+        FirestoreRecyclerOptions<Message> options = new FirestoreRecyclerOptions.Builder<Message>()
                 .setQuery(query, Message.class)
                 .build();
         adapter = new MessageAdapter(options);

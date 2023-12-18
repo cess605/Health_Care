@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Daktar Lagbe</string>
+    <string name="app_name">Health Care</string>
     <string name="main_activity_description">
 Just chat with your mentors</string>
 
-    <string name="login">Connexion</string>
+    <string name="login">Connection</string>
     <string name="chat_with_mentor">
 Chat with a mentor</string>
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347522936452",
+    "project_id": "nativeand-b0806",
+    "storage_bucket": "nativeand-b0806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347522936452:android:490e4c123a702649695cd1",
+        "android_client_info": {
+          "package_name": "com.Health.Care"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcLDYQY3ZH84Cf8ZrZkhAvlFGiircSnoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
