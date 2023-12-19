@@ -64,10 +64,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         confirme = (EditText)findViewById(R.id.editText3);
         confirme.setVisibility(View.INVISIBLE);
-        signInButton = findViewById(R.id.sign_in_button);
+//        signInButton = findViewById(R.id.sign_in_button);
 
-        TextView textView = (TextView) signInButton.getChildAt(0);
-        textView.setText("Or Sign in with Google");
+//        TextView textView = (TextView) signInButton.getChildAt(0);
+//        textView.setText("Or Sign in with Google");
 
         emailText= (EditText) findViewById(R.id.editText2);
         passwordText= (EditText) findViewById(R.id.editText);
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
             }else{
-                    Toast.makeText(MainActivity.this, "vous devez rensegnier toutes les champs",
+                    Toast.makeText(MainActivity.this, "Email or Password cannot be empty",
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -157,14 +157,14 @@ public class MainActivity extends AppCompatActivity {
                     signUpBtn.setVisibility(View.VISIBLE);
                     loginBtn.setVisibility(View.INVISIBLE);
                     creatBtn.setText("Back to login");
-                    signInButton.setVisibility(View.GONE);
+//                    signInButton.setVisibility(View.GONE);
                 }
                 else{
                     confirme.setVisibility(View.INVISIBLE);
                     signUpBtn.setVisibility(View.INVISIBLE);
                     loginBtn.setVisibility(View.VISIBLE);
                     creatBtn.setText("Create Account");
-                    signInButton.setVisibility(View.VISIBLE);
+//                    signInButton.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -265,4 +265,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
+
 }
